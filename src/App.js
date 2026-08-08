@@ -25,7 +25,7 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cortona">
       <LanguageProvider>
         <ScrollToTop />
         <Seo />
